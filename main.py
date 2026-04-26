@@ -26,11 +26,6 @@ underlying. The backtest module is data-source agnostic — pass any DataFrame
 with columns [K, T, market_price, iv, type] into `compute_mispricing` and
 `run_backtest`.
 
-Usage
------
-    pip install -r requirements.txt
-    python options_backtest.py
-"""
 
 from __future__ import annotations
 
